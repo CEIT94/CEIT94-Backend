@@ -1,0 +1,35 @@
+{
+  "name": "graduation-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Graduation API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec yarn start",
+    "start": "bak start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceit93/graduation-api.git"
+  },
+  "author": "Iman Tabrizian <tabrizian@outlook.com>",
+  "bugs": {
+    "url": "https://github.com/ceit93/graduation-api/issues"
+  },
+  "homepage": "https://github.com/ceit93/graduation-api#readme",
+  "dependencies": {
+    "@bakjs/audit": "*",
+    "@bakjs/auth": "^4.0.1",
+    "@bakjs/minio": "*",
+    "@bakjs/mongo": "^4.5.4",
+    "@bakjs/policy": "^3.0.1",
+    "bak": "^5.0.1",
+    "boom": "^7.3.0",
+    "config": "^3.1.0",
+    "zarinpal-checkout": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
